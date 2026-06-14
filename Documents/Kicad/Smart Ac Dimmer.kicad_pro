@@ -304,7 +304,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "E:\\github_projects\\smart_ac_dimmer\\Documents\\Kicad\\Smart Ac Dimmer.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -378,6 +378,96 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -432,17 +522,44 @@
     "top_level_sheets": [
       {
         "filename": "Smart Ac Dimmer.kicad_sch",
-        "name": "AC Side Control",
+        "name": "root",
         "uuid": "a3be49e0-e3e6-427f-80d6-65a6e317f056"
+      },
+      {
+        "filename": "untitled.kicad_sch",
+        "name": "Untitled",
+        "uuid": "242ce64a-1c89-4b3e-be2b-fad2f265a9f5"
+      },
+      {
+        "filename": "power_supply.kicad_sch",
+        "name": "power supply",
+        "uuid": "57ba261d-bd8d-4552-a97b-39896e19de44"
+      },
+      {
+        "filename": "data_table.kicad_sch",
+        "name": "Data table",
+        "uuid": "3e5fd09a-4610-472e-a4bf-382960c0d7da"
       }
     ],
-    "used_designators": "R1-2,R12,#PWR28-30",
+    "used_designators": "R1-17,J1-5,U1-8,D1-3,AE1,#PWR1-41,C1-20,Q1,Y1,RV1,F1",
     "variants": []
   },
   "sheets": [
     [
       "a3be49e0-e3e6-427f-80d6-65a6e317f056",
-      "AC Side Control"
+      "root"
+    ],
+    [
+      "242ce64a-1c89-4b3e-be2b-fad2f265a9f5",
+      "Untitled"
+    ],
+    [
+      "57ba261d-bd8d-4552-a97b-39896e19de44",
+      "power supply"
+    ],
+    [
+      "3e5fd09a-4610-472e-a4bf-382960c0d7da",
+      "Data table"
     ]
   ],
   "text_variables": {},

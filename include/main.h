@@ -4,6 +4,9 @@
 #include <Arduino.h>
 #include <board.h>
 
+#include <dimmer.h>
+#include <wifi_service.h>
+
 #include <adc_hal.h>
 #include <gpio_hal.h>
 #include <timer_hal.h>

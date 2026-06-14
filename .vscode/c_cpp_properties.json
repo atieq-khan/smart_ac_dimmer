@@ -10,9 +10,10 @@
             "includePath": [
                 "e:/github_projects/smart_ac_dimmer/include",
                 "e:/github_projects/smart_ac_dimmer/src",
+                "e:/github_projects/smart_ac_dimmer/lib/adc_hal",
+                "e:/github_projects/smart_ac_dimmer/lib/nvs_hal",
                 "e:/github_projects/smart_ac_dimmer/lib/timer_hal",
                 "e:/github_projects/smart_ac_dimmer/lib/gpio_hal",
-                "e:/github_projects/smart_ac_dimmer/lib/adc_hal",
                 "C:/Users/atieq/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include",
                 "C:/Users/atieq/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include",
                 "C:/Users/atieq/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos",
@@ -246,9 +247,10 @@
                 "path": [
                     "e:/github_projects/smart_ac_dimmer/include",
                     "e:/github_projects/smart_ac_dimmer/src",
+                    "e:/github_projects/smart_ac_dimmer/lib/adc_hal",
+                    "e:/github_projects/smart_ac_dimmer/lib/nvs_hal",
                     "e:/github_projects/smart_ac_dimmer/lib/timer_hal",
                     "e:/github_projects/smart_ac_dimmer/lib/gpio_hal",
-                    "e:/github_projects/smart_ac_dimmer/lib/adc_hal",
                     "C:/Users/atieq/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include",
                     "C:/Users/atieq/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include",
                     "C:/Users/atieq/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos",

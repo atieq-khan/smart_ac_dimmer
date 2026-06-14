@@ -45,7 +45,6 @@ uint32_t adc_read_raw(int8_t adcPin)
     for (uint8_t i = 0; i < ADC_SAMPLES; i++)
     {
         adcReading += adc1_get_raw(adcChannel);
-        vTaskDelay(ADC_DELAY_MS);
     }
 
     return adcReading / ADC_SAMPLES;
